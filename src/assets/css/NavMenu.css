@@ -1,0 +1,15 @@
+.menu-container {
+  flex: 1 0 auto;
+  background-color: #252525;
+  display: flex;
+  justify-content: stretch;
+}
+.menu-container .menu-link {
+  display: block;
+  flex: 1 0 auto;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: #252525;
+  color: #6a6a6a;
+  margin-left: 10px;
+}

@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  width: 20%;
+  border: 1px solid #eee;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+.card .img {
+  flex: 1 0 auto;
+  width: 100%;
+}
+.card .img img {
+  width: 100%;
+  height: auto;
+}
+.card .title-product {
+  flex: 0 0 auto;
+  text-transform: capitalize;
+  color: #252525;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+.card .price {
+  flex: 0 0 auto;
+  color: #252525;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+.card .action {
+  flex: 0 0 auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+.card .action .button-link {
+  cursor: pointer;
+  color: #243f03;
+}
+.card .action .button-link:hover {
+  text-shadow: 5px 5px 5px rgba(8, 41, 5, 0.3);
+  text-decoration: underline;
+}

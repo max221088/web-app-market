@@ -1,0 +1,14 @@
+.search-products input {
+  width: 250px;
+  height: 30px;
+  background-color: #303030;
+  border: none;
+  background-image: url(../2703065_search_find_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: auto 60%;
+  outline: none;
+  color: #6a6a6a;
+  font-size: 16px;
+  text-indent: 5px;
+}

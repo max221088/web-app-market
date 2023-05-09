@@ -1,0 +1,37 @@
+.nav-bar {
+  border: 1px solid #eee;
+  color: #eee;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nav-bar h4 {
+  color: #252525;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 25px;
+  cursor: default;
+}
+.nav-bar ul li {
+  color: #a4a4a4;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+}
+.nav-bar ul li:hover {
+  color: #252525;
+}
+.nav-bar ul li .category-item {
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin-left: 10px;
+  color: #a4a4a4;
+  font-family: inherit;
+}
+.nav-bar ul li .category-item:hover {
+  color: #252525;
+}
+.nav-bar ul li .category-item::first-letter {
+  text-transform: capitalize;
+}

@@ -1,0 +1,17 @@
+.page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.page-wrapper button {
+  margin-right: 10px;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px;
+  background-color: #303030;
+  color: #6a6a6a;
+  cursor: pointer;
+}
+.page-wrapper button.active {
+  background-color: #404040;
+}
