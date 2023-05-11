@@ -47,9 +47,7 @@ function getCollectionFromDB (colID) {
 export default new Vuex.Store({
   state: {
     products: [],
-    productsFromDB: [],
     categories: [],
-
   },
   getters: {
     getProducts(state) {
@@ -63,7 +61,7 @@ export default new Vuex.Store({
     fetchCategories(context) {
       getCollectionFromDB('Category')
         .then(data => {
-          context.state.productsFromDB = [];
+          context.state.categories = [];
            data.forEach(list => {
             context.state.categories.push(list.data());
         });
