@@ -72,7 +72,11 @@ export default {
       let index = 0;
       products = (this.selectedCategory.length || this.query)
       ? this.products.filter(product => {
-        return ((this.selectedCategory.length) ? ~this.selectedCategory.indexOf(product.category.toString()) : true)
+        return ((this.selectedCategory.length) 
+        ? product.category.some(category =>{
+          return (this.selectedCategory.indexOf(category) != (-1))
+        }) : true)
+        // ~this.selectedCategory.indexOf(product.category.toString()) : true)
          && ~product.title.toLowerCase().indexOf(this.query.toLowerCase());
       })
       : this.products
